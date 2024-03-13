@@ -1,0 +1,92 @@
+{
+	"info": {
+		"_postman_id": "f55004cf-240f-456d-a732-c86f73b626a5",
+		"name": "CSV Service",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "13288725"
+	},
+	"item": [
+		{
+			"name": "localhost:8080/v1/deleteAll",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/v1/deleteAll",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"v1",
+						"deleteAll"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/v1/findAll",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/v1/findAll",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"v1",
+						"findAll"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/v1/upload",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/C:/Users/keith/Downloads/exercise.csv"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:8080/v1/upload",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"v1",
+						"upload"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": null,
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/v1/find",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
